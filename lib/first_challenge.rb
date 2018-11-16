@@ -15,7 +15,7 @@ def first_challenge
   }
   contacts.each do |key, value|
     binding.pry
-    key.each do |key, value|
+    value.each do |key, value|
       if key == :favorite_icecream_flavors
         value.each do |element|
           element.delete_if {|x| x == "strawberry"}
