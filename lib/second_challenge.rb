@@ -7,9 +7,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   ingredients = ""
-  groceries.each do |key, value|
-    ingredients << key.values
-  end
+  groceries.values
 
   
 
