@@ -6,8 +6,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-groceries.values
+  ingredients = ""
+  groceries.each do |key, value|
+    ingredients << key.values
+  end
 
   
 
